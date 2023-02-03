@@ -132,8 +132,8 @@ REST_FRAMEWORK = {
     ],
 
     # This lines will be allows to not surch-able in a any browser
-    'DEFAULT_RENDERER_CLASSES': (
-        'rest_framework.renderers.JSONRenderer',
-    )
+    # 'DEFAULT_RENDERER_CLASSES': (
+    #     'rest_framework.renderers.JSONRenderer',
+    # )
 
 }
